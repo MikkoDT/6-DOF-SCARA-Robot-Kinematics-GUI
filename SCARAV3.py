@@ -47,18 +47,18 @@ def f_k():
     a6 = float(a6_E.get())/100
     a7 = float(a7_E.get())/100
 
-    d1 = float(d1_E.get())/100
+    d1 = float(d1_E.get())/100 #50cm for testing
     T2 = float(t2_E.get())
     T3 = float(t3_E.get())
     T4 = float(t4_E.get())
     T5 = float(t5_E.get())
     T6 = float(t6_E.get())
 
-    T2 = (T2/180.0)*np.pi # Theta 2 in radians
-    T3 = (T3/180.0)*np.pi # Theta 3 in radians
-    T4 = (T4/180.0)*np.pi # Theta 4 in radians
-    T5 = (T5/180.0)*np.pi # Theta 5 in radians
-    T6 = (T6/180.0)*np.pi # Theta 6 in radians
+    T2 = (T2/180.0)*np.pi # Theta 2 in radians #60 deg for testing
+    T3 = (T3/180.0)*np.pi # Theta 3 in radians #-30 deg for testing
+    T4 = (T4/180.0)*np.pi # Theta 4 in radians #90 deg for testing
+    T5 = (T5/180.0)*np.pi # Theta 5 in radians #45 deg for testing
+    T6 = (T6/180.0)*np.pi # Theta 6 in radians #-45 deg for testing
 
     PT = [[(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,0,a1+d1],
           [T2,(0.0/180.0)*np.pi,a2,0],
